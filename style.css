@@ -31,7 +31,7 @@ h4{
 /*PORTADA*/
 .portada{
     height: 500px;
-    background-image: url(/img/escritorio.png);
+    background-image: url(./img/escritorio.png);
     background-size: cover;
     color: aqua;
     position: relative;
