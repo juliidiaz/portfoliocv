@@ -18,6 +18,18 @@
     justify-content: center;
 }
 
+.d-end{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.d-start{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 h4{
     width: 100%;
     font-family: roboto;
@@ -31,9 +43,8 @@ h4{
 /*PORTADA*/
 .portada{
     height: 500px;
-    background-image: url(./img/escritorio.png);
+    background-image: url(/img/escritorio.png);
     background-size: cover;
-    color: aqua;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -56,8 +67,10 @@ h4{
     margin-left: 19px;
 }
 
+/*DESCRIPCIÓN*/
+
 .descrip{
-    padding: 11px;
+    padding: 0px 20px 20px 20px;
     flex-direction: column;
     font-family: roboto;
 }
@@ -162,8 +175,15 @@ h4{
     justify-content: flex-start;
     position: relative;
 }
+
+.docencia h4{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
 .img-docencia{
-    height: 450px;
+    height: 600px;
     width: 20%;
     background-size: cover;
     background-position:center;
@@ -171,7 +191,7 @@ h4{
     transition: all 1s;
 }
 .img-docencia:hover{
-    width: 40%;
+    width: 35%;
 }
 .box-doc {
     position: absolute;  
@@ -179,7 +199,7 @@ h4{
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    left: 80px;
+    left: 70px;
 }
 .box-doc img{
     border-radius: 50%;
@@ -205,12 +225,79 @@ h4{
     width: 10%;
     background-color: #FFA006;
     margin: 5px;
+    transition: all 1s;
+}
+.box-diseno:hover .clip-diseno {
+    width: 13%;
 }
 .text-diseno{
     padding: 5px;
 }
 
+    .modo-der{
+        text-align: end;
+    }
+.text-diseno a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 .title-diseno{
     font-size: 20px;
     padding-bottom: 5px;
+}
+
+/*CONTACTO*/
+.contacto{
+    flex-direction: column;
+    margin: 18px;
+}
+
+.cont { 
+    flex-direction: row;
+    color: grey;
+}
+
+.cont img {
+    width: 28px;
+    margin: 7px;
+}
+
+.box-cont {
+    flex-direction: column;
+}
+
+/*FOOTER*/
+
+footer{
+    background-image: url(/img/footer.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.footer2{
+    background-color:rgb(44, 44, 44);
+    padding-bottom: 15px;
+}
+
+.sec-foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 32%;
+}
+
+.sec-foot img{
+    width: 30px;
+    margin: 10px;
+}
+
+.sec-foot p {
+    font-size: small;
+    font-weight: bold;
 }
