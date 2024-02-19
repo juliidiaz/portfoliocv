@@ -43,7 +43,7 @@ h4{
 /*PORTADA*/
 .portada{
     height: 500px;
-    background-image: url(./portfoliocv/img/escritorio.png);
+    background-image: url(/portfoliocv/img/escritorio.png);
     background-size: cover;
     position: relative;
     display: flex;
@@ -276,7 +276,7 @@ h4{
 /*FOOTER*/
 
 footer{
-    background-image: url(./portfoliocv/img/footer.png);
+    background-image: url(/portfoliocv/img/footer.png);
     background-size: cover;
     background-position: center;
     height: 300px;
