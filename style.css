@@ -43,7 +43,7 @@ h4{
 /*PORTADA*/
 .portada{
     height: 500px;
-    background-image: url(/img/escritorio.png);
+    background-image: url(./portfoliocv/img/escritorio.png);
     background-size: cover;
     position: relative;
     display: flex;
@@ -132,7 +132,6 @@ h4{
     width: 100%;
     margin: 0 auto;
     position: relative; 
-    background: linear-gradient(to bottom, #E5E5E5, white);
 }
 
 .carousel {
@@ -157,6 +156,8 @@ h4{
     position: absolute; 
     top: 50%;
     transform: translateY(-50%);
+    color: #FFA006;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .carousel-btn-prev {
@@ -254,12 +255,16 @@ h4{
     margin: 18px;
 }
 
-.cont { 
+.contacto a { 
+    display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     color: grey;
+    text-decoration: none;
 }
 
-.cont img {
+.contacto a img {
     width: 28px;
     margin: 7px;
 }
@@ -271,7 +276,7 @@ h4{
 /*FOOTER*/
 
 footer{
-    background-image: url(/img/footer.png);
+    background-image: url(./portfoliocv/img/footer.png);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -279,25 +284,27 @@ footer{
 }
 
 .footer2{
-    background-color:rgb(44, 44, 44);
-    padding-bottom: 15px;
+    background-color:darkslategrey;
+    padding: 20px;
 }
 
-.sec-foot{
+.footer2 a{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
     width: 32%;
+    width: 100%;
 }
 
-.sec-foot img{
+.footer2 img{
     width: 30px;
-    margin: 10px;
 }
 
-.sec-foot p {
+.footer2 p {
     font-size: small;
     font-weight: bold;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
 }
