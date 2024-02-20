@@ -226,17 +226,21 @@ h4{
     justify-content: center;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);    width: 80%;
+    transform: translate(-50%, -50%);    
+    width: 80%;
 }
+
 .box-doc img{
     border-radius: 50%;
     border: solid #FFA006 8px;
     height: 150px;
 }
+
 .text-doc{
     padding: 10px;
     text-shadow: 0px 0px 20px white;
 }
+
 
 /*TRABAJOS REALIZADOS*/
 .trabajos{
@@ -302,6 +306,8 @@ footer{
     justify-content: center;
     width: 32%;
     width: 100%;
+    text-decoration: none;
+    color: white;
 }
 
 .footer2 img{
@@ -312,8 +318,6 @@ footer{
     font-size: small;
     font-weight: bold;
     margin-top: 10px;
-    color: white;
-    text-decoration: none;
 }
 
 
@@ -358,23 +362,20 @@ footer{
         margin: 30px 0px 30px 0px;
     }
     .box-doc {
-        top: 50%;
-        left: 50%;
-        transform: translate(-30%, -70%);    
-    }
-    .img-d-i{
-        margin-left: 50px;
+        transform: translate(-31%, -69%);    
     }
     .img-docencia{
         height: 700px;
         width: 26%;
-        background-size: cover;
-        background-position:center;
-        filter: grayscale(80%);
-        transition: all 1s;
     }
     .img-docencia:hover{
-        width: 31%;
+        width: 32%;
+    }
+    .img-d-i{
+        margin-left: 40px;
+    }
+    .box-doc img{
+        height: 180px;
     }
     /*trabajos realizados*/
     .box-diseno{
