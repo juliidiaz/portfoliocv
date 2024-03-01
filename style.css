@@ -393,6 +393,10 @@ footer{
         height: 180px;
     }
 
+    .cuadernillos{
+        flex-direction: column;
+    }
+
     .cuadernillo{
         flex-direction: row;
     }
