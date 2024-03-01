@@ -393,6 +393,9 @@ footer{
         height: 180px;
     }
 
+    .cuadernillo{
+        flex-direction: row;
+    }
     .text-cuadernillo {
         padding: 40px;
         margin: 20px;
